@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <form id="imcForm">
+
+        <div class="fields">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" step="0.01" required>
+        </div>
+
+        <div class="fields">
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" name="altura" step="0.01" required>
+        </div>
+            
+        <div>
+            <button type="submit">Calcular IMC</button>
+        </div>
+
+    </form>
+
+
+    <p id="resultado"></p>
+
+<hr>
+    <div class="situations">
+        <div class="situation">
+            muito abaixo do peso (Magreza grave)
+        </div>
+        <div class="situation">
+            muito abaixo do peso (Magreza moderada)
+        </div>
+        <div class="situation">
+            abaixo do peso
+        </div>
+            <div class="situation normal">
+            com peso normal
+        </div>
+            <div class="situation">
+            com sobrepeso
+        </div>
+        <div class="situation">
+            com obesidade leve
+        </div>
+        <div class="situation">
+            com obesidade moderada
+        </div>
+        <div class="situation">
+            com obesidade grave
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
