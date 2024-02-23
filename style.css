@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(100, 50, 50, 1);
+    background-color: rgb(27, 78, 102);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -12,8 +12,9 @@ form{
     padding: 10px;
     padding-top: 30px;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .fields{
@@ -42,19 +43,59 @@ button{
     width: 100%;
     border-radius: 10px;
     border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(85, 124, 207);
+    color: #fff;
+}
+
+#result{
+    background-color: rgb(14, 129, 124);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 hr{
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .situation{
     text-align: center;
     border: 1px solid #fff;
+    border-radius: 6px;
     margin: 10px;
-    height: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 20px;
 }
 
+.extra-lower, .plus-3{
+    background-color: rgb(185, 0, 0);
+    font-weight: bolder;
+}
+.lower, .plus-2{
+    background-color: rgb(194, 116, 0);
+}
+.low, .plus{
+    background-color: rgb(230, 230, 0);
+    color: rgb(46, 46, 46);
+}
 .normal{
     background-color: rgb(0, 100, 0);
+    font-weight: bold;
 }
+.plus-4{
+    background-color: brown;
+    font-weight: bolder;
+}
+
+

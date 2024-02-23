@@ -26,10 +26,15 @@ document.getElementById('imcForm').addEventListener('submit', function(event) {
         situation = 'com obesidade grave';
     }
 
-    const resultadoElement = document.getElementById('resultado');
+    const resultadoElement = document.getElementById('result');
     resultadoElement.textContent = `O seu IMC é: ${imc.toFixed(2)}, e você está ${situation}`;
+    
+    resultadoElement.style.display='block';
 });
 
+
+
+document.getElementById('result').style.display = 'none'
 
 /*
 document.getElementById('imcForm').onsubmit = function(event) {
