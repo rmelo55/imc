@@ -9,16 +9,17 @@
 </head>
 <body>
     <h1>Calculadora de IMC</h1>
+
     <form id="imcForm">
 
         <div class="fields">
             <label for="peso">Peso (kg):</label>
-            <input type="number" id="peso" name="peso" step="0.01" required>
+            <input type="text" id="peso" name="peso" step="0.01" required autocomplete="off" autofocus>
         </div>
 
         <div class="fields">
             <label for="altura">Altura (m):</label>
-            <input type="number" id="altura" name="altura" step="0.01" required>
+            <input type="text" id="altura" name="altura" step="0.01" required autocomplete="off">
         </div>
             
         <div>
@@ -27,33 +28,32 @@
 
     </form>
 
-
     <p id="result"></p>
 
 <hr>
     <div class="situations">
-        <div class="situation extra-lower">
+        <div class="situation" id="extra-lower">
             muito abaixo do peso (Magreza grave)
         </div>
-        <div class="situation lower">
+        <div class="situation" id="lower">
             muito abaixo do peso (Magreza moderada)
         </div>
-        <div class="situation low">
+        <div class="situation" id="low">
             abaixo do peso
         </div>
-            <div class="situation normal">
+        <div class="situation" id="normal">
             PESO NORMAL
         </div>
-            <div class="situation plus">
+        <div class="situation" id="plus">
             com sobrepeso
         </div>
-        <div class="situation plus-2">
+        <div class="situation" id="plus-2">
             com obesidade leve
         </div>
-        <div class="situation plus-3">
+        <div class="situation" id="plus-3">
             com obesidade moderada
         </div>
-        <div class="situation plus-4">
+        <div class="situation" id="plus-4">
             com obesidade grave
         </div>
     </div>
