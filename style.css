@@ -22,6 +22,7 @@ form{
     flex-direction: column;
     margin-bottom: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .label1{
@@ -41,6 +42,7 @@ input{
 button{
     height: 40px;
     width: 200px;
+    margin: auto;
     margin-top: 15px;
     border-radius: 10px;
     border: 2px solid #fff;
