@@ -42,10 +42,9 @@ input{
 button{
     height: 40px;
     width: 200px;
-    margin: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     border-radius: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff;
     font-size: 18px;
     font-weight: bold;
     background-color: rgba(85, 124, 207, 0);
