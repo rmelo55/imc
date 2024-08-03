@@ -24,8 +24,9 @@ document.getElementById('imcForm').addEventListener('submit', function(event) {
 
     } else if (imc < 18.5) {
         situation = 'abaixo do peso'
-        const sitLow = document.getElementById('extra-lower')
+        const sitLow = document.getElementById('low')
         sitLow.style.backgroundColor='rgb(230, 230, 0)'
+        sitPlus.style.color='#000'
 
     } else if (imc < 25) {
         situation = 'com peso normal'
@@ -36,6 +37,7 @@ document.getElementById('imcForm').addEventListener('submit', function(event) {
         situation = 'com sobrepeso'
         const sitPlus = document.getElementById('plus')
         sitPlus.style.backgroundColor='rgb(230, 230, 0)'
+        sitPlus.style.color='#000'
 
     } else if (imc < 35) {
         situation = 'com obesidade leve'
