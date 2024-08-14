@@ -49,6 +49,7 @@ button{
     font-weight: bold;
     background-color: rgba(85, 124, 207, 0);
     color: #fff;
+    cursor: pointer;
 }
 
 #result{

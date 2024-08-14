@@ -2,7 +2,7 @@ document.getElementById('imcForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const peso = Number(parseFloat(document.getElementById('peso').value));
-    const altura = Number(document.getElementById('altura').value.replace(',', '.'));
+    const altura = Number(parseFloat(document.getElementById('altura').value.replace(',', '.')));
 
     // const peso = Number(parseFloat(document.getElementById('peso').value));
     // const altura = Number(parseFloat(document.getElementById('altura').value)).replace(',','.');
